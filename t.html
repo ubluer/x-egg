@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Person = function(name){
+        this.name = name;
+        this.getName = function(){
+            return name;
+        }
+    }
+    console.log(Person)
+    var person1 = new Person('Emy')
+</script>
+</body>
+</html>
