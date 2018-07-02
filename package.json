@@ -18,12 +18,16 @@
   "author": "Xiang",
   "license": "GPL-2.0",
   "dependencies": {
+    "babel-eslint": "^8.2.5",
     "egg": "^2.9.1",
+    "egg-mongoose": "^3.0.0",
     "egg-view-nunjucks": "^2.2.0",
+    "eslint-config-alloy": "^1.4.2",
     "moment": "^2.22.2"
   },
   "devDependencies": {
     "egg-bin": "^4.7.0",
-    "egg-mock": "^3.17.2"
+    "egg-mock": "^3.17.2",
+    "eslint": "^5.0.1"
   }
 }
