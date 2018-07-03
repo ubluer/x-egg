@@ -1,9 +1,9 @@
 exports.nunjucks = {
     enable: true,
     package: 'egg-view-nunjucks'
-}
+};
 
-exports.mongoose = {
+exports.mongo = {
     enable: true,
-    package: 'egg-mongoose'
-}
+    package: 'egg-mongo-native',
+};

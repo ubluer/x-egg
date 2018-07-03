@@ -2,7 +2,7 @@ const Controller = require('egg').Controller;
 
 class FamilyController extends Controller {
     async index() {
-        this.ctx.body = 'Hello world';
+        this.ctx.body = this.ctx.service.family.list();
     }
 }
 
